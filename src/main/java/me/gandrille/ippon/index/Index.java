@@ -44,7 +44,7 @@ public class Index {
 
 		return map;
 	}
-	
+
 	private static SortedSet<String> getEmptySet() {
 		return new TreeSet<String>(Index::compare);
 	}
